@@ -1,0 +1,258 @@
+* {
+    font-family: 'Playfair Display', serif;;
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.colcontain{
+    width: 55rem;
+    background-color: white;
+    margin: 0 auto;
+}
+.nav{
+    background-color: black;
+    color: white;
+    width: 55rem;
+    margin: 0 auto;
+
+}
+.navcontain{
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+    
+
+}
+.navbar{
+    list-style: none;
+    padding: 0;
+}
+/* Col Left CSS */
+.coleft{
+    background-color: rgb(255, 255, 255);
+    flex:2;
+    align-self: flex-start;
+}
+
+* li {
+    margin: 0px 7px;
+}
+
+h1{
+    padding: 0 20px 0 0;
+}
+
+/* User Card CSS */
+
+.card{
+    background-color: #AEC6CF;
+    margin-bottom: 25px;;
+    border: 5px solid lightgray;
+    border-radius: 5px;
+}
+
+.pfphead{
+    background-color: salmon;
+    height: 100px;
+    position: relative;
+}
+
+
+.pfp{
+    position: absolute;
+    bottom: -35px;
+    left: 10px;
+}
+
+#rin{
+    z-index: 2;
+    height:70px;
+    left: 25px;
+    bottom: -19px;
+}
+
+#circlepfp{
+    z-index: 1;
+    height: 100px;
+}
+
+.lang{
+    margin-right: 25px;
+}
+
+.marker{
+    height:25px;
+    margin-left: 15px;
+}
+
+.map{
+    font-size: 20px;
+}
+
+.lang{
+    margin-left: 15px;
+}
+
+.kind{
+    margin-left: 15px;
+}
+
+.button{
+    margin-top: 70px;
+    margin-left: 25px;
+    font-size: small;
+}
+
+.gear{
+    height: 15px;
+}
+
+.name{margin-top: 30px;
+    margin-left: 5px;
+}
+    
+/* Bio CSS */
+.bio{
+    min-height: 300px;
+    background-color: #AEC6CF;
+    border: 5px solid lightgray;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.edu{
+    background-color: #3EB489;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+h3{
+    margin-bottom: 0px;
+}
+
+h5{
+    margin-top: 0px;
+}
+
+.stack{
+    font-weight:400;
+    padding-left: 20px;
+}
+
+/* Col Right CSS */
+
+.coright{
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    align-self: flex-start
+
+}
+.btn{ 
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+
+button{
+    border: 2px solid black;
+    padding: 5px 25px;
+    background-color: rgb(96, 136, 247);
+    color: white;
+    margin-top: 10px
+}
+.req{
+    background-color: #def1f8;  
+    border: 5px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.reqhead{
+    background-color: darkslategrey;
+    justify-content: flex-start;
+}
+
+.reqlogo{
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: lightgray;
+    color: black;
+    margin: 0px 15px;
+}
+.reqleft{
+    flex: 1;
+}
+.reqmid{
+    flex:1;
+}
+.reqright{
+    flex: 1;
+}
+.contitle{
+    color: white;
+    margin-right: 25px;
+}
+
+.conimg{
+    height: 20px;
+    margin: 10px 0 5px 15px;
+}
+.profimg{
+    height: 20px;
+    margin: 10px 10px 10px 15px;
+    border-radius: 50%;
+}
+.todd, .phil{
+    justify-content: flex-start;
+}
+.con{
+    background-color: #def1f8;
+    border: 5px solid lightgray;
+    border-radius: 5px;
+}
+
+.conbox{
+    display: inline-block;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left:0px;
+}
+
+.friends{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.two{
+    margin-left: 10px;
+}
+
+.fiveh{
+    margin: 0 0 5px 3px;
+
+}
+.view{
+    border-top: 5px solid lightgrey;
+}
+
+.vlink{
+    margin-left: 25px;
+}
+
+.bottom{
+    background-color: darkgray;
+    min-height: 15px;
+}
