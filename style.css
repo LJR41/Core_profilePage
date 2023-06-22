@@ -115,6 +115,16 @@ h1{
     height: 15px;
 }
 
+.edit{
+    border: 0px;
+    background-color: transparent;
+    color: black;
+    padding: 0px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
 .name{margin-top: 30px;
     margin-left: 5px;
 }

@@ -35,7 +35,7 @@
                         </header>
                         <div class="info">
                             <div class="name">
-                                <h1><strong>Lauro Remulla</strong></h1>
+                                <h1 id="userName"><strong>Lauro Remulla</strong></h1>
                             </div>
                             <div class="map">
                                 <img src="imgs/map-marker.png" alt="map marker" class="marker"> Seattle, WA
@@ -47,7 +47,7 @@
                                 <em><p>"In a world where you can be anything, be kind."</p></em>
                             </div>
                             <div class="button">
-                                <img src="imgs/gear.png" alt="gear" class="gear"> <a href="">Edit Profile</a>
+                                <img onclick="changeName()" src="imgs/gear.png" alt="gear" class="gear"> <button class="edit" onclick="changeName()">Edit Profile</button>
                             </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
                     <div class="req">
                         <header class="reqhead flex">
                             <div class="reqlogo flex">
-                                <p class="two"><strong>2</strong></p>
+                                <p class="two" id="conreqs"><strong>2</strong></p>
                             </div>        
                             <div> 
                                 <h4 class="contitle">Connection Requests</h4>
@@ -78,29 +78,29 @@
                         </header>
                         <div class="reqbox flex">
                             <div class="reqleft">
-                                <div> 
+                                <div id="reqleft-1"> 
                                     <img src="./imgs/Ash.png" class="profimg" alt="Ashley">
                                 </div>
-                                <div>
+                                <div id="reqleft-2">
                                     <img src="./imgs/kai.jpg" class="profimg" alt="Kai">
                                 </div>
                             </div>
                             <div class="reqmid">
-                                <div> 
+                                <div id="reqmid-1"> 
                                     <p> Ashley</p>
                                 </div>
-                                <div>
+                                <div id="reqmid-2">
                                     <p> Kai </p>
                                 </div>
                             </div>
                             <div class="reqright">
-                                <div>
-                                    <img src="./imgs/accept-circle.png" class="conimg" alt="">
-                                    <img src="./imgs/close-circle.png" class="conimg" alt="">
+                                <div id="reqright-1">
+                                    <img onclick="remReq1plus()" src="./imgs/accept-circle.png" class="conimg" alt="">
+                                    <img onclick="remReq1()" src="./imgs/close-circle.png" class="conimg" alt="">
                                 </div>
-                                <div>
-                                    <img src="./imgs/accept-circle.png" class="conimg" alt="">
-                                    <img src="./imgs/close-circle.png" class="conimg" alt="">
+                                <div id="reqright-2">
+                                    <img onclick="remReq2plus()" src="./imgs/accept-circle.png" class="conimg" alt="">
+                                    <img onclick="remReq2()" src="./imgs/close-circle.png" class="conimg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -108,7 +108,7 @@
                     <div class="con">
                         <header class="reqhead flex">
                             <div class="reqlogo flex">
-                                <p class="fiveh"><strong>500</strong></p>
+                                <p class="fiveh" id="totalCon"><strong>235</strong></p>
                             </div>        
                             <div>
                                 <h4 class="contitle">Your Connections</h4>
@@ -141,20 +141,7 @@
                 </div>
             </div>
     <div class="bottom"><footer> <h5>MeetMe</h5> </footer></div>
-
+<script src="./script.js"></script>
 </body>
 </html>
 
-<!-- 
-<div class="todd flex">
-    <img src="./imgs/user-circle.png" class="conimg" alt="">
-    <p> Ashley</p>
-    <img src="./imgs/accept-circle.png" class="conimg" alt="">
-    <img src="./imgs/close-circle.png" class="conimg" alt="">
-</div>
-<div class="phil flex">
-    <img src="./imgs/user-circle.png" class="conimg" alt="">
-    <p> Kai </p>
-    <img src="./imgs/accept-circle.png" class="conimg" alt="">
-    <img src="./imgs/close-circle.png" class="conimg" alt="">
-</div> -->
